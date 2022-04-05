@@ -1,0 +1,62 @@
+body{
+    background-color: aliceblue;
+}
+header{
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    flex-basis: 100%;
+    text-align: center;
+}
+nav a{
+    padding: 2rem;
+    color: blueviolet;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+h2{
+    text-align: center;
+    color: rgb(144, 25, 173);
+    font-weight: bold ;
+    font-size: xx-large;
+}
+p{
+    text-align: center;
+    color: rgb(162, 83, 236);
+    font-size: larger;
+    font-weight: bold;
+}
+.about div{
+    display: inline-block;
+    width: 48%;
+    vertical-align: text-top;
+    color: rgb(198, 164, 230);
+}
+.about img{
+    width: 80%;
+
+}
+.about .dogs{
+    width: 30%;
+    float: right;
+}
+h3{
+    text-align: center;
+    color: rgb(144, 25, 173);
+    font-size: xx-large;
+    font-weight: bold;
+}
+h4{
+    text-align: center;
+    color: rgb(144, 25, 173);
+    font-size: xx-large;
+    font-weight: bold;
+}
+.about .me{
+    width: 10%;
+    float: left;
+    display: inline-block;
+}
