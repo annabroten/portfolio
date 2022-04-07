@@ -48,6 +48,7 @@ h3{
     color: rgb(144, 25, 173);
     font-size: xx-large;
     font-weight: bold;
+    flex-basis: 100%;
 }
 h4{
     text-align: center;
@@ -59,4 +60,36 @@ h4{
     width: 10%;
     float: left;
     display: inline-block;
+}
+.contacts div{
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;  
+}
+.contacts img{
+    width: 48%;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.gallery img{
+    flex-basis: 100%;
+}
+@media (min-width: 1400px){
+    .gallery img{
+        flex-basis: 48%;
+    }
+    main{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    main section{
+        flex:1;
+    }
+    .gallery{
+        border-left: .55rem solid black;
+        border-right: .55rem solid black;
+    }
 }
